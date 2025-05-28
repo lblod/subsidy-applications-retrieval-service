@@ -1,6 +1,6 @@
 {
   "name": "subsidy-applications-retrieval-service",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Service to manage subsidies, used for the internal management tool",
   "main": "app.js",
   "scripts": {
