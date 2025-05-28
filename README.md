@@ -10,6 +10,13 @@ This includes but is not limited to:
 
 ### Within a [`mu.semte.ch`](https://github.com/mu-semtech) stack
 
+Dispatcher:
+```elixir
+match "/management-form-file/*path" do
+  forward conn, path, "http://subsidy-applications-retrieval-service/"
+end
+```
+
 Paste the following snip-it in your `docker-compose.yml`:
 
 ```yaml
